@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Donation Form</title>
+    </head>
+    
+    <body>
+    <h1>Book Donation Form</h1>
+    <p>Donate Your Old Or New Books To Any School Library</p>
+
+    <form>
+
+        <fieldset>
+            <legend>Donor Details</legend>
+            <label>Your Name</label><br>
+            <input type="text" id="DD" placeholder="Enter Your Name"><br><br>
+
+            <label>Donor ID</label><br>
+            <input type="password" id="DID" placeholder="Enter Your Secert ID"><br><br>
+
+            <label>Date Of Donation</label><br>
+            <input type="date" id="DOD">
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Book Details</legend>
+            <label> Choose Your Book  Type</label>
+            <select id="book category">
+                <option value="">Choose The Book Type</option>
+                <option value="Science">Science</option>
+                <option value="Fiction">Fiction</option>
+                <option value="History">History</option>
+                <option value="Education">Education</option>
+                </select>
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Condition Of The Book</legend>                    
+            <input type="radio" name="Condition" value="New">New<br>
+            <input type="radio" name="Condition" value="Good">Good<br>
+            <input type="radio" name="Condition" value="Used">Used<br>
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Drop Off Days</legend>
+            <input type="checkbox" value="MON">Monday<br>
+            <input type="checkbox" value="WED">Wednesday<br>
+            <input type="checkbox" value="FRI">Friday<br>
+        </fieldset>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+    </body>
+   
+</html>
